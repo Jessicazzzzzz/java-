@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1" width="300" height = "300">
+        <caption><h3>学生成绩</h3></caption>
+       <thead>
+        <tr>
+            
+            <th>学生</th>
+            <th>学号</th>
+            <th>成绩</th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+            <td>小姐姐</td>
+            <td>01</td>
+            <td rowspan="2">200</td>
+        </tr>
+        <tr>
+            <td>小哥哥</td>
+            <td>02</td>
+            <!-- 删除，因为要合并单元格 -->
+            <!-- <td>200</td> -->
+        </tr>
+       </tbody>
+        <tfoot>
+            <tr>
+                <td>总结</td>
+                <td colspan="2">郎才女貌</td>
+                <!-- 因为要合并所以要删除 -->
+                <!-- <td>郎才女貌</td> -->
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
