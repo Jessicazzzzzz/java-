@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 200px;
+            height: 200px;
+            /* 顺序没有关系，但是尽量按照这个习惯
+                不写的就是默认值，
+                如果单独写的顺序就很重要，因为会有覆盖的问题
+                 no-repeat 不要写成none repeat 解析不出啦就会出错
+                 尽量写一个就试一下，保证每一步都正确，错了也好查找*/
+            background: skyblue url(./images/1.jpg) no-repeat center center ;
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>

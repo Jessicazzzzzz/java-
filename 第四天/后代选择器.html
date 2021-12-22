@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .father p{
+           color: red;
+        }
+    </style>
+</head>
+<body>
+    <!-- 不想改变标签的属性，将小姐姐赋予红色 -->
+    <!-- 就需要用到后代选择器
+    它的逻辑就是只要是这个标签的后代都能实现这个功能
+    简单理解就是只要在这个标签内的标签就会有这个实现 -->
+    <div class="father">
+        <p>小姐姐</p>
+        <div>
+            <p>小帅哥</p>
+        </div>
+    </div>
+    <p>小哥哥</p>
+</body>
+</html>
